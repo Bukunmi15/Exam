@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tables</title>
+    <style>
+
+        /* td{
+            border: 2px solid black  
+
+        } */
+        table, td, th{
+            border: 2px solid #000;
+            border-collapse: collapse;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <h1>Table in Html </h1>
+
+    <!-- Html Tables one-->
+
+    <!-- Tables -->
+
+    <!-- <tr></tr>  // tables row -->
+    <!-- <td></td> // table data  -->
+    <!-- <th></th> // table head  -->
+    <!-- <thead></thead> table header  -->
+    <!-- <tfoot></tfoot> table footer  -->
+    <!-- <tbody></tbody> table <body> -->
+        <!--  -->
+    </body>
+
+    <!-- tables -->
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Worth</td>
+            <tr>
+                <td>Bukunmi</td>
+                <td>$5million</td>
+            </tr>
+            <tr>
+                <td>Bro olakunle</td>
+                <td>$10million</td>
+            </tr>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Table two -->
+    
+    
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Worth</th>
+        <tr>
+            <td>Bukunmi</td>
+            <td>$20million</td>
+            <tr>
+                <td>Sky</td>
+                <td>£20million</td>
+            </tr>
+        </tr>
+    </tr>
+</table> <hr>
+  
+
+<!-- Table three  -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Profession</th>
+            <th>Salary</th>
+            <thead>
+                <tr>
+                    <td>Bukunmi</td>
+                    <td>oyeoluwabukunmi@gmail.com</td>
+                    <td>Developer</td>
+                    <td>5000</td>
+                    <tr>
+                        <td>marcus</td>
+                        <td>marcusjjc@gmail.com</td>
+                        <td>Programmer</td>
+                        <td>5000</td>
+                        <tr>
+                            <td>sky</td>
+                            <td>theskyvisual@gmail.com</td>
+                            <td>Graphix designer</td>
+                            <td>5000</td>
+                            <tr>
+                                <td colspan="3">Total</td>
+                                
+                                <td>15000</td>
+                            </tr>
+                        
+        
+                        </tr>
+                    </tr>
+                </tr>
+            </thead>
+        </tr>
+    </thead>
+</table>
+<hr>
+
+<!-- Next table  -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Profession</th>
+            <th>Devices</th>
+            <tbody>
+                <tr>
+                    <td>Oluwabukunmi</td>
+                    <td>Programmer</td>
+                    <td>Micro-Soft</td>
+                    <tr>
+                        <td>Chuks</td>
+                        <td>Bitcoin Trader</td>
+                        <td>Apple</td>
+                        <tr>
+                            <td>Olawale</td>
+                            <td>Graphix designer</td>
+                            <td>Android</td>
+                            <tr>
+                                <td>Olaitan</td>
+                                <td>Musician</td>
+                                <td>Black Berry</td>
+                            </tr>
+                        </tr>
+                    </tr>
+                </tr>
+            </tbody>
+        </tr>
+    </thead>
+
+
+
+
+</table>
+
+<hr>
+<!-- Row span -->
+
+<code>My name is Code </code>
+
+<table>
+    <thead>
+        <tr>
+            <td colspan="2" >Language and Frameworks</td>
+            <tr> 
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Python</td>
+            <td>Django</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Javascript</td>
+            <td>React.js</td>
+        </tr>
+
+        <tr>
+            <td>Vue.js</td>
+        </tr>
+
+        <tr>
+            <td>Ruby</td>
+            <td>Ruby on rails</td>
+        </tr>
+<hr>
+
+        <!-- table -->
+        
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="6" >Time Table</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th rowspan="5" >Hours</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                 <tr>
+                    <td>Science</td>
+                    <td>MAths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Arts</td>
+                </tr>
+
+                <tr>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td>Sports</td>
+                </tr>
+
+                <tr>
+                    <th colspan="5" >Lunch</th>
+    
+                </tr>
+
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+            <td rowspan="2" >Project</td>
+        
+                </tr>
+
+
+                <tr>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </tbody> 
+
+
+     <!-- table  -->
+     <p>A test table with merged cells</p>
+
+     <table>
+        <!-- <thead>
+            <tr>
+                <th colspan="4" ></th>
+            </tr>
+        </thead> -->
+
+        <tbody>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+             
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+
+            <tr>
+                <th>height</th>
+                <th>weight</th>
+                
+            </tr>
+
+            <tr>
+                <th>Males</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+
+            <tr>
+                <th>Female</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+
+
+
+        </tbody>
+
+    
+
+
+<hr>
+
+
+        <table>
+            <tbody>
+               <tr>
+                <th>Name</th>
+                <th colspan="2" >Job</th>
+                <th>Working Experience</th>
+               </tr>
+
+
+               <tr>
+                <th>John</th>
+                <th>Software Engineer</th>
+                <th>Data Analyst</th>
+                <th rowspan="2" >5 years</th>
+               </tr>
+
+               <tr>
+                <th>Ale</th>
+                <th>Senior Web Developer</th>
+                <th></th>
+               </tr>
+
+               <tr>
+                <th>jack</th>
+                <th>Junior Tech Writer</th>
+                <th>Blogger</th>
+                <th>6 months</th>
+               </tr>
+            </tbody>
+        </table>
+
+       
+
+
+
+
+     </table>
+</table>
+<hr>
+
+    
+
+
+
+
+
+<!-- table  -->
+
+<table>
+    <tr>
+        <th>Subject</th>
+        <th>Code</th>
+        <th>Test</th>
+        <th>Class</th>
+    </tr>
+
+<tbody>
+    <tr>
+        <td rowspan="5" >Math</td>
+    
+        <td rowspan="5" >9</td>
+    </tr>
+    <tr>
+        <td>ABC</td>
+        <td>D1</td>
+        <tr>
+            <td>ABD</td>
+        <td>D2</td>
+        <tr>
+            <td>ABE</td>
+            <td>D3</td>
+            <tr>
+                <td>ABF</td>
+                <td>D4</td>
+            </tr>          
+        </tr>
+        </tr>
+    </tr>
+
+
+    <tr>
+        <td rowspan="5" >Science</td>
+
+    </tr>
+    <tr>
+        <td rowspan="4" >91</td>
+    </tr>
+    <tr>
+        <td>ABG</td>
+        <td>D1</td>
+    </tr>
+    <tr>
+        <td>ABH</td>
+        <td>D2</td>
+    </tr>
+    <tr>
+        <td>ABI</td>
+        <td>D3</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>191</td>
+        <td>ABJ</td>
+        <td>D1</td>
+    </tr>
+    
+</tbody>
+
+
+<hr>
+<br>
+
+
+
+
+<!-- 
+<!-- table  -->
+
+
+<!-- 
+</table>
+<tr>
+    <th>Column 1</th>
+    <th rowspan="2" >Column 2</th>
+    <th rowspan="" >Column 3</th>
+</tr>
+
+<tbody>
+    <tr>
+        <td>Row 1 cell 1</td>
+    </tr>
+
+
+</tbody>
+ --> -->
+
+
+</body>
+</html>
